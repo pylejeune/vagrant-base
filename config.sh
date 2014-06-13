@@ -8,6 +8,7 @@ fi
 cd /var/www
 rm index.html
 ln -s /vagrant/sites
-cd /vagrant/sites
+cd /vagrant/sites/ZendSkeletonApplication
+php composer.phar install
 
 #git clone https://github.com/zendframework/ZendSkeletonApplication.git
